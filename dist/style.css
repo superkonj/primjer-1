@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+body 
+{
+	color: #fff;
+	background: -webkit-linear-gradient(left, #000 , #29383f); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #000, #29383f); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #000, #29383f); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #000 , #29383f); /* Standard syntax */
+}
+
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form 
+{
+	border-color: none;
+	background-color: #08090d;
+}
+
+.item_text
+{
+	color:#FFFFFF;
+	float:right;
+	text-align:center;
+}
+.footer
+{
+	background: -webkit-linear-gradient(#ccc, #000);
+	background: -o-linear-gradient(#ccc, #000); 
+	background: -moz-linear-gradient(#ccc, #000);
+	background: linear-gradient(#ccc, #000); 
+}
+
+.navbar-default 
+{
+	background-image: -webkit-linear-gradient(top, #08090d 0%, #08090d 100%);
+	background-image: -o-linear-gradient(top, #08090d 0%, #08090d 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#08090d), to(#08090d));
+	background-image: linear-gradient(to bottom, #08090d 0%, #08090d 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#08090d', endColorstr='#08090d', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background-repeat: repeat-x;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form 
+{
+	
+}
+
+.navbar 
+{
+	border: 0px solid transparent;
+	margin-bottom: 0px; 
+}
+
+.stvari
+{
+	
+	height: 281px;
+	background-color:#FFFFFF;
+	color:#000000;
+	border-style:solid;
+    border-width: 2px;
+	border-color:#FF9900;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+
+.desno
+{
+	background-color:#FFFFFF;
+	padding-bottom:20px;
+	padding-top:20px;
+	color:#000000;
+	text-align:center;
+	border-style:solid;
+    border-width: 2px;
+	border-color:#FF9900;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-radius: 3px;
+}
+
+.sredina_slika
+{
+	width:36%;
+	border: 1px solid #FF6600;
+	margin-left:30px;
+	float:left;
+	display:block;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#FFFFFF;
+	height:237px;
+	border: 1px solid #FF6600;
+	border-radius: 5px;
+}
+
+.sredina_text
+{
+	color:#000000;
+	padding:15px;
+	float:right;
+	width:60%;
+	display:block;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#FFFFFF;
+	height:237px;
+	border: 1px solid #FF6600;
+	border-radius: 5px;
+}
+
+.col-md-8
+{
+	background-color:#f6931e;
+}
+
+.ispod_slidera
+{
+	background-color:#f6931e;
+}
+
+.narancasto
+{
+	color:#FF6600;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus 
+{
+	color: #FF6600;
+}
+
+.forma_slider
+{
+	position: absolute;
+	top: 20%;
+	left: 51%;
+	z-index: 15;
+	width: 60%;
+	padding-left: 0;
+	margin-left: -30%;
+	text-align: center;
+	list-style: none;
+	display:block;
+}
+
+.slider_livi
+{
+	width:33%;
+	float:left;
+	margin-right:20px;
+}
+
+.slider_srednji
+{
+	width:33%;
+	float:left;
+}
+
+.slider_desni
+{
+	width:31%;
+	float:right;
+	padding-top:17px;
+}
+
+.carousel-inner 
+{
+    overflow:hidden;
+	width:1170px;
+    height:750px;
+    position:relative;
+	text-align:center;
+	
+}
+
+.carousel
+{
+	width:1170px;
+	height:750px;
+	margin:auto;
+}
+
+.form-control
+{
+	border: 1px solid #FF6600;
+	height: 30px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+.botun
+{
+	background-image:url(../slike/botun.jpg);
+	width:265px;
+	height:67px;
+	border:none;
+	margin-left: 10px;
+}
+
+.text
+{
+	height:207px;
+}
+
